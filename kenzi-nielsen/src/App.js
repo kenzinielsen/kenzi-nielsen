@@ -1,41 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ContactForm from './components/Contact';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
 import Projects from './components/Project';
+//import Resume from './components/Resume';
 
 function App() {
-//  const [categories] = useState([
-//  ])
-//
-//  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-//const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setCurrentPage] = useState("About")
+  //  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  //const [contactSelected, setContactSelected] = useState(false);
+  const renderPage = () => {
+    if(currentPage === "About") {
+      return  <About />
+
+    } else if (currentPage === "Contact") {
+      return <ContactForm />
+    } else {
+      return <Projects />
+    }
+  }
   return (
-   //<div>
-   //  <Nav
-   //   contactSelected={contactSelected}
-   //   setContactSelected={setContactSelected}>
-   //     <ContactForm></ContactForm>
-   //     
-   // </Nav>
-   // <main>
-   //    <About></About>
-   //    <Footer></Footer>
-   //  </main>
-   // </div>
-   <div>
-   <Nav
-     >
-     <Projects />
+    <div>
+      <Nav
+      currentPage = {currentPage}
+      setCurrentPage = {setCurrentPage}
+      >
      </Nav>
      <main>
-     <About />
-     <ContactForm></ContactForm>
-     <Footer />
+        {renderPage()}
+        <Footer />
+     </main>
+     </div>
 
-   </main>
-   </div>
   );
 }
 

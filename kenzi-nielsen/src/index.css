@@ -36,7 +36,6 @@ body {
   letter-spacing: .1em;
   background:/* #5ccec4; */ #adb9e3;
   color: var(--light);
-  /*font-family: 'Poiret One', cursive */
   font-family: 'Courier New', Courier, monospace;
 
 }
@@ -51,7 +50,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
-}
+}ƒ
 
 h1 {
   font-size: 2.25rem;
@@ -292,5 +291,10 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var( --primary);
+}
+footer {
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: lighter;
 }

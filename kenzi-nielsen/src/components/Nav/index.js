@@ -1,45 +1,26 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+//import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
 function Nav(props) {
     const {
-        categories = [],
-        setCurrentCategory,
-        contactSelected,
-        currentCategory,
-        setContactSelected,
-      } = props;
+        setCurrentPage, currentPage
+    } = props;
     return (
         <header className="flex-row px-1 md:sticky">
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                    <a data-testid="about" href="#about" >
-                        About Me</a>
+                        <a className={currentPage === "About" ? "mx-2 navActive" :""} data-testid="about" href="#about" onClick={() => setCurrentPage("About")} >
+                            About Me</a>
                     </li>
-                    <a className="mx-2" href="#projects">Projects</a>
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        Contact
-                    </li>  
+                    <li>
+                    <a className={currentPage === "Projects" ? "mx-2 navActive" :""}  href="#projects" onClick={() => setCurrentPage("Projects")}>Projects</a>
+                    </li>
+                    <li className={`mx-2 ${'navActive'}`}>
+                    <a className={currentPage === "Contact" ? "mx-2 navActive" :""}  href="#contact" onClick={() => setCurrentPage("Contact")}>Contact</a>
+                    </li>
 
-                    {categories.map((category) => (
-  <li
-    className={`mx-1 ${
-      currentCategory.name === category.name && !contactSelected && 'navActive'
-      }`}
-    key={category.name}
-  >
-    <span
-      onClick={() => {
-        setCurrentCategory(category);
-        setContactSelected(false);
-      }}
-    >
-      {capitalizeFirstLetter(category.name)}
-    </span>
-  </li>
-                    ))}
 
                 </ul>
             </nav>
