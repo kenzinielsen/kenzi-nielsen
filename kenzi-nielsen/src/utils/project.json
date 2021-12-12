@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Scheduler",
+        "link": "https://kenzinielsen.github.io/Scheduler/",
+        "github": "https://github.com/kenzinielsen/Scheduler",
+        "image": "../../assets/images/scheduler.png"
+    },
+    {
+        "name": "Notetaker",
+        "link": "https://kenzinielsen.github.io/Note-Taker/",
+        "github":"https://github.com/kenzinielsen/Note-Taker",
+        "image": "../../assets/images/notetaker.png",
+        "description": "words go here"
+
+    }
+]

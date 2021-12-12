@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import ContactForm from './components/Contact';
+import Nav from './components/Nav';
+import About from './components/About';
+import Footer from './components/Footer';
+import Projects from './components/Project';
+//import Resume from './components/Resume';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("About")
+  //  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  //const [contactSelected, setContactSelected] = useState(false);
+  const renderPage = () => {
+    if(currentPage === "About") {
+      return  <About />
+
+    } else if (currentPage === "Contact") {
+      return <ContactForm />
+    } else {
+      return <Projects />
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <Nav
+      currentPage = {currentPage}
+      setCurrentPage = {setCurrentPage}
+      >
+     </Nav>
+     <main>
+        {renderPage()}
+        <Footer />
+     </main>
+     </div>
+
   );
 }
 
