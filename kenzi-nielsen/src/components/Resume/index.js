@@ -5,7 +5,7 @@ function Resume() {
 
         <section>
             <h1>
-            <a href="../../assets/images/resume.png">My Resume</a>
+            <img src={require(`../../assets/images/resume.png`).default} />
             </h1>
         </section>
 
