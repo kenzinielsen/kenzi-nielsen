@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kenzi-nielsen/static/css/main.99625372.chunk.css",
+    "main.js": "/kenzi-nielsen/static/js/main.618de13b.chunk.js",
+    "main.js.map": "/kenzi-nielsen/static/js/main.618de13b.chunk.js.map",
+    "runtime-main.js": "/kenzi-nielsen/static/js/runtime-main.604a8440.js",
+    "runtime-main.js.map": "/kenzi-nielsen/static/js/runtime-main.604a8440.js.map",
+    "static/js/2.01709fce.chunk.js": "/kenzi-nielsen/static/js/2.01709fce.chunk.js",
+    "static/js/2.01709fce.chunk.js.map": "/kenzi-nielsen/static/js/2.01709fce.chunk.js.map",
+    "static/js/3.e27a3036.chunk.js": "/kenzi-nielsen/static/js/3.e27a3036.chunk.js",
+    "static/js/3.e27a3036.chunk.js.map": "/kenzi-nielsen/static/js/3.e27a3036.chunk.js.map",
+    "index.html": "/kenzi-nielsen/index.html",
+    "static/css/main.99625372.chunk.css.map": "/kenzi-nielsen/static/css/main.99625372.chunk.css.map",
+    "static/js/2.01709fce.chunk.js.LICENSE.txt": "/kenzi-nielsen/static/js/2.01709fce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.604a8440.js",
+    "static/js/2.01709fce.chunk.js",
+    "static/css/main.99625372.chunk.css",
+    "static/js/main.618de13b.chunk.js"
+  ]
+}
