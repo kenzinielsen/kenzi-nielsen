@@ -3,6 +3,7 @@ main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
+  text-decoration: none;
 }
 :root {
   --primary: #8c54ff;
@@ -297,4 +298,20 @@ footer {
   align-items: flex-end;
   justify-content: flex-end;
   font-weight: lighter;
+}
+
+.abouttext {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.about {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.proLinks {
+ color:rgba(0, 0, 0, .65)
 }

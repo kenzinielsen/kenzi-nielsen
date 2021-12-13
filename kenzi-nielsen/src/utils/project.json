@@ -9,8 +9,18 @@
         "name": "Notetaker",
         "link": "https://kenzinielsen.github.io/Note-Taker/",
         "github":"https://github.com/kenzinielsen/Note-Taker",
-        "image": "../../assets/images/notetaker.png",
-        "description": "words go here"
-
+        "image": "../../assets/images/notetaker.png"
+    },
+    {
+        "name": "MVC Tech Blog",
+        "link": "https://techblogkn.herokuapp.com/",
+        "github": "https://github.com/kenzinielsen/MVC-tech-blog",
+        "image": ""
+    },
+    {
+        "name":"PWA Budget Tracker",
+        "link": "https://still-reaches-38897.herokuapp.com/",
+        "github": "https://github.com/kenzinielsen/PWA",
+        "image":""
     }
 ]
