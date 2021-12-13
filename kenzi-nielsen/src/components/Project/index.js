@@ -9,13 +9,13 @@ function Projects() {
             </section>
             {projectData.map(project => (
                 
-                    <div className="card">
-                        <h4>{project.name}</h4>
+                    <div className="card row">
+                        <h4 className="text-dark">{project.name}</h4>
                         {console.log(project.image)}
-                        <img src={require(project.name).default} className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <p className="card-text">Github: <a href={project.github}>{project.github}</a></p>
-                            <p className="card-text">Live Link: <a href={project.link}>{project.link}</a></p>
+                        <img src={require(`../../assets/images/github.png`).default} className="card-img-top" alt="..." />
+                        <div className="card-body text-dark" id="projectLinks">
+                            <p className="card-text"> <a className="text-dark" href={project.github}>GitHub Link</a></p>
+                            <p className="card-text"><a className="text-dark" href={project.link}>Live Link</a></p>
                         </div>
                     </div>
 

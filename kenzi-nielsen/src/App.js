@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
 import Projects from './components/Project';
-//import Resume from './components/Resume';
+import Resume from './components/Resume';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About")
@@ -13,12 +13,13 @@ function App() {
   const renderPage = () => {
     if(currentPage === "About") {
       return  <About />
-
     } else if (currentPage === "Contact") {
       return <ContactForm />
-    } else {
+    } else if (currentPage === "Projects") {
       return <Projects />
-    }
+    } else { 
+      return <Resume />
+  }
   }
   return (
     <div>

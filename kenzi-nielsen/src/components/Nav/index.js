@@ -20,6 +20,10 @@ function Nav(props) {
                     <li className={`mx-2 ${'navActive'}`}>
                     <a className={currentPage === "Contact" ? "mx-2 navActive" :""}  href="#contact" onClick={() => setCurrentPage("Contact")}>Contact</a>
                     </li>
+                    <li>
+                    <a className={currentPage === "Resume" ? "mx-2 navActive" :""}  href="#resume" onClick={() => setCurrentPage("Resume")}>Resume</a>
+
+                    </li>
 
 
                 </ul>
