@@ -8,8 +8,7 @@ import Resume from './components/Resume';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About")
-  //  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  //const [contactSelected, setContactSelected] = useState(false);
+  
   const renderPage = () => {
     if(currentPage === "About") {
       return  <About />
