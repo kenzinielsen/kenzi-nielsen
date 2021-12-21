@@ -1,6 +1,6 @@
 # Kenzi Nielsen's Portfolio
 
-## Purpose
+## Description
 A website that showcases projects, information about me and how to get in contact!
 
 ## Built With
