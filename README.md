@@ -9,7 +9,7 @@ A website that showcases projects, information about me and how to get in contac
 ## Built With
 * HTML
 * CSS
-* JavaScript!
+* JavaScript
 * React
 
 ### ©️2021-Kenzi Nielsen
