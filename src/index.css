@@ -315,3 +315,8 @@ footer {
 .proLinks {
  color:rgba(0, 0, 0, .65)
 }
+
+.footerImage {
+  width: 11px;
+  height: 11px;
+}
