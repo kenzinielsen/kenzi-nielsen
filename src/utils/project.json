@@ -1,5 +1,11 @@
 [
     {
+        "name": "SubscripZen",
+        "link": "https://peaceful-gorge-13766.herokuapp.com/",
+        "github": "https://github.com/bhyland95/Subscripzen",
+        "image": "../../assets/images/scheduler.png"
+    },
+    {
         "name": "Scheduler",
         "link": "https://kenzinielsen.github.io/Scheduler/",
         "github": "https://github.com/kenzinielsen/Scheduler",
