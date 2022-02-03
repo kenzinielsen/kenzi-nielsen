@@ -6,6 +6,12 @@
         "image": "../../assets/images/scheduler.png"
     },
     {
+        "name": "TuneItOut",
+        "link": "https://dippidydoo19.herokuapp.com/",
+        "github": "https://johnson90cm.github.io/group-project-1/",
+        "image": "../../assets/images/tune-it-out.png"
+    },
+    {
         "name": "Scheduler",
         "link": "https://kenzinielsen.github.io/Scheduler/",
         "github": "https://github.com/kenzinielsen/Scheduler",
@@ -21,12 +27,12 @@
         "name": "MVC Tech Blog",
         "link": "https://techblogkn.herokuapp.com/",
         "github": "https://github.com/kenzinielsen/MVC-tech-blog",
-        "image": ""
+        "image": "../../assets/images/techblog"
     },
     {
         "name":"PWA Budget Tracker",
         "link": "https://still-reaches-38897.herokuapp.com/",
         "github": "https://github.com/kenzinielsen/PWA",
-        "image":""
+        "image":"../../assets/images/budgettracker"
     }
 ]

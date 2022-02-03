@@ -5,7 +5,7 @@ function Resume() {
 
         <section>
             <h1>
-            <img src={require(`../../assets/images/resume.png`).default} />
+            <img src={require(`../../assets/images/resume.png`).default} alt="kenzi's resume"/>
             </h1>
         </section>
 
