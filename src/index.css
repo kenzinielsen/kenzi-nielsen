@@ -295,9 +295,11 @@ a {
   color: var( --primary);
 }
 footer {
-  align-items: flex-end;
-  justify-content: flex-end;
   font-weight: lighter;
+  color: black;
+  font-size: medium;
+  align-content: flex-end space-around;
+  justify-content: flex-end;
 }
 
 .abouttext {
@@ -318,5 +320,6 @@ footer {
 
 .footerlink, .footerlinks {
   text-decoration: none;
-  color: white;
+  color: black;
+
 }
